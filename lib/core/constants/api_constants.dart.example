@@ -1,0 +1,16 @@
+/// API Constants - COPY THIS FILE TO api_constants.dart AND ADD YOUR KEYS
+/// 
+/// IMPORTANT: Never commit api_constants.dart to version control!
+/// The actual file is in .gitignore
+
+class ApiConstants {
+  ApiConstants._();
+
+  // Supabase
+  static const String supabaseUrl = 'YOUR_SUPABASE_URL';
+  static const String supabaseAnonKey = 'YOUR_SUPABASE_ANON_KEY';
+
+  // RevenueCat (for subscriptions)
+  static const String revenueCatApiKeyIOS = 'YOUR_REVENUECAT_IOS_KEY';
+  static const String revenueCatApiKeyAndroid = 'YOUR_REVENUECAT_ANDROID_KEY';
+}
